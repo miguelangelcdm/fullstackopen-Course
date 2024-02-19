@@ -66,22 +66,30 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-.Notification{
-  color: green;
-  background: greenyellow;
-  font-size: 20px;
-  border-style: solid;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
+
+.country-name {
+  background-color: rgb(73, 73, 73);
+  padding: 1rem;
+  border-radius: 20px;
 }
 
-.errorNotification{
-  color: rgb(255, 255, 255);
-  background: red;
-  font-size: 20px;
-  border-style: solid;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
+.country-img {
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.country-container {
+  display: flex;
+  width: 100%;
+  gap: 10%;
+  justify-content: center;
+  padding: 1rem;
+  flex-direction: column;
+}
+.country-weather{
+  background-color: rgb(73, 73, 73);
+  padding: 1rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
